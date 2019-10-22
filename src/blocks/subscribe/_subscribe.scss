@@ -1,0 +1,93 @@
+.subscribe {
+    background-image: url("/src/html/dist/img/bg.jpg");
+    padding-top: 145px;
+    padding-bottom: 163px;
+    
+
+    &__title {
+        /* Text style for "Subscribe To U" */
+    color: #262626;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 27px;
+    padding-bottom: 34px;
+    margin-left: 2.5px;
+    }
+
+    &__subtitle {
+        /* Text style for "Dolor sit amet" */
+    
+    color: #262626;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    margin-top: -5px;
+    }
+
+    &__form {
+        margin-top: 8px;
+    }
+    
+    &__input {
+        border: 1px solid #262626;
+        width: 570px;
+    height: 55px;
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-left: 3px;
+    
+    }
+    
+    &__input::placeholder {
+        
+        opacity: 0.5;
+        color: #262626;
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 27px;
+    }
+    
+    
+    &__button {
+    /* Text style for "SUBSCRIBE" */
+    width: 170px;
+    height: 55px;
+    background-color: #96b92c;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+    margin-left: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    }
+    
+    &__button:hover {
+        width: 170px;
+        height: 55px;
+        background-color: black;
+        border: none;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 27px;
+        margin-left: 25px;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0;
+    }
+}
+
+
+
+
+
