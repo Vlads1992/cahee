@@ -1,0 +1,29 @@
+mixin gallery
+    .gallery
+        .gallery__header
+            .gallery__title
+                h1#gallery Gallery
+            .gallery__subtitle
+                p Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        .gallery__images
+                .container
+                    .row
+                        .col-8
+                            .item1
+                                img(src="./dist/img/item1.jpg" alt="peach")
+                        .col-4
+                            .item2
+                                img(src="./dist/img/item2.jpg" alt="blueberry")
+                            .item3
+                                img(src="./dist/img/item3.jpg" alt="mulberry")
+                    .row
+                        .col-6
+                            .item4
+                                img(src="./dist/img/item4.jpg" alt="glass")
+                        .col-6
+                            .item5
+                                img(src="./dist/img/item5.jpg" alt="persimmon")
+                    .gallery__button
+                        .gallery__button--style
+                            button(type='button' class='galbutton') VIEW MORE
+                    

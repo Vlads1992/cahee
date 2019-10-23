@@ -1,0 +1,89 @@
+/* body {
+    background-color: #ffe92f;
+    margin: 0;
+}
+
+*/
+
+.gallery {
+    background-color: #ffe92f;
+    margin: 0;
+    padding-top: 102px;
+    padding-bottom: 119px;
+
+    &__title {
+        /* Text style for "Gallery" */
+    
+    color: #262626;
+    font-family: Raleway;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+
+    }
+
+    &__subtitle {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 50px;
+    color: #262626;
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    text-align: center;
+    padding-bottom: 50px;
+
+        }
+
+    &__images img {
+    max-width: 100%;
+            
+        }
+        
+    &__images img:hover {
+    background-color: #00c4c4;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }    
+
+    
+    &__images .item1, .item2 {
+        padding-bottom: 30px;
+    }    
+
+    &__images .item4 {
+        padding-bottom: 50px;
+    }
+
+    &__button .galbutton {
+            /* Style for "bg" */
+    width: 200px;
+    height: 55px;
+    background-color: #5585a2;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+        }
+        
+            /* Text style for "Consectetur ad" */
+        
+        
+        
+}
+
+
+
+
+
+
+
+

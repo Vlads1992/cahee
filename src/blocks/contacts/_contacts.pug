@@ -1,0 +1,25 @@
+mixin contacts
+    .contacts
+        .container
+            .row
+                .col-12
+                    .contacts__header
+                        #contact.contacts__title
+                            h2 Contact
+                        .contacts__subtitle
+                            p For new projects, ideas, business or anything
+                            p you'd like to discuss, contact with me!
+            .row
+                .col-6
+                    form(action="/index.html"   class="contacts__form" method="GET")
+                        input(class="contacts__solid" type="text" id="name" name="name" placeholder="Your name...")
+                        input(class="contacts__solid" type="email" id="email" name="email" placeholder="Your email...")
+                        input(class="contacts__solid" type="text" id="number" name="number" placeholder="Your phone number...")
+                        textarea Your message
+        .contacts__footer
+            .container
+                .row
+                    .col-12.d-flex.justify-content-between
+                        p.contacts__copyright &copy; 2015 Company. All rights reserved.
+                        img(class="contacts__smalllogo" src="./dist/img/logo_footer.svg" alt="logo small")
+                        p.contacts__author Made with <span>love</span> by Auskteez

@@ -1,6 +1,9 @@
 include ../blocks/about/_about.pug
 include ../blocks/blog/_blog.pug
 include ../blocks/subscribe/_subscribe.pug
+include ../blocks/gallery/_gallery.pug
+include ../blocks/contacts/_contacts.pug
+include ../blocks/home/_home.pug
 
 <!DOCTYPE html>
 html(lang="en")
@@ -11,7 +14,10 @@ html(lang="en")
         title Document
         link(rel="stylesheet", href="./dist/css/style.css")
     body
+        +home
         +about
+        +gallery
         +subscribe
         +blog
+        +contacts
         

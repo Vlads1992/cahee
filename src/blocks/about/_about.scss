@@ -1,7 +1,7 @@
 .about {
     background-color: #00b5b5;
-    background-image: url(./dist/img/about.jpg);
-    background-position: top;
+    background-image: url('../img/about@x1.png');
+    background-position: center left 60px;
     background-repeat: no-repeat;
     position: relative;
 
@@ -9,9 +9,6 @@
     &__wrapper {
         padding-top: 180px;
         padding-bottom: 235px;
-        background-image: url(./dist/img/about-cup.png);
-        background-repeat: no-repeat;
-        background-position: left;
         padding-top: 170px;
         padding-right: 60px;
         padding-bottom: 235px;

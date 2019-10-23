@@ -1,7 +1,9 @@
 .subscribe {
-    background-image: url("/src/html/dist/img/bg.jpg");
+    background-image: url('../img/bg.jpg');
+    background-position: top;
     padding-top: 145px;
     padding-bottom: 163px;
+    
     
 
     &__title {
