@@ -1,6 +1,6 @@
 mixin home
     .home
-        .container
+        .container.container--lg
             .row
                 .col-12
                     .home__header
@@ -19,11 +19,11 @@ mixin home
                                     a(href="" ) Blog
                                 li 
                                     a(href="" ) Contact
-                .col-4                    
+                .col-xl-4.offset-xl-0.col-lg-6.col-md-6.col-sm-6.col-12                 
                     .home__body
                         h2 Fresh Life
                         p Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
-                        button(type='button' class='home__button') GET FREE NOW
+                        a(href='#' class='home__button') GET FREE NOW
                 .col-12.d-flex.justify-content-center
                         a(href="#contact")
                             img(src="./img/scroll.png" class="home__scroll" alt="scroll")
