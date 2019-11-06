@@ -4,6 +4,8 @@ include ../blocks/subscribe/_subscribe.pug
 include ../blocks/gallery/_gallery.pug
 include ../blocks/contacts/_contacts.pug
 include ../blocks/home/_home.pug
+include ../pug/icons.svg
+include ../blocks/services/_services.pug
 
 <!DOCTYPE html>
 html(lang="en")
@@ -15,9 +17,10 @@ html(lang="en")
         link(rel="stylesheet", href="./css/style.css")
     body
         +home
-        //- //+about
-        //- +gallery
-        //- +subscribe
-        //- +blog
-        //- +contacts
+        +about
+        +services
+        +gallery
+        +subscribe
+        +blog
+        +contacts
         

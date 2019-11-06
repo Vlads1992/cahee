@@ -7,8 +7,9 @@
 
 .gallery {
     background-color: #ffe92f;
+    background-repeat: no-repeat;
     margin: 0;
-    padding-top: 102px;
+    padding-top: 120px;
     padding-bottom: 119px;
 
     &__title {
@@ -20,21 +21,21 @@
     font-weight: 700;
     line-height: 27px;
     text-align: center;
-
+    padding-bottom: 10px;
     }
 
     &__subtitle {
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 50px;
+        margin-top: 50px;
+         /*width: 50%;
+        margin-left: 35%;
+        margin-right: 35%;*/
     color: #262626;
     font-family: Raleway;
     font-size: 17px;
     font-weight: 300;
     line-height: 27px;
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 43px;
 
         }
 
@@ -50,12 +51,38 @@
 
     
     &__images .item1, .item2 {
-        padding-bottom: 30px;
+        padding-bottom: 24px;
     }    
 
-    &__images .item4 {
-        padding-bottom: 50px;
+    
+    &__images .item5 {
+        @media screen and (max-width: 991px) {
+           
+            padding-top: 24px;
+         }
     }
+
+    &__images .item4, .item5 {
+
+
+
+
+        @media screen and (max-width: 765px) {
+           
+            padding-top: 24px;
+         }
+
+        @media screen and (max-width: 575px) {
+           
+           padding-top: 24px;
+        }
+
+        
+
+       
+    }
+
+   
 
     &__button .galbutton {
             /* Style for "bg" */
@@ -72,6 +99,22 @@
     margin: auto;
     display: flex;
     justify-content: center;
+    margin-top: 50px;
+        }
+
+    &__button .galbutton:hover {
+            /* Style for "bg" */
+    width: 200px;
+    height: 55px;
+    background-color: rgba(245, 175, 47, 0.904);
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    color: black;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+    
         }
         
             /* Text style for "Consectetur ad" */

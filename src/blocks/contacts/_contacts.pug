@@ -10,12 +10,14 @@ mixin contacts
                             p For new projects, ideas, business or anything
                             p you'd like to discuss, contact with me!
             .row
-                .col-6
+                .col-5
                     form(action="/index.html"   class="contacts__form" method="GET")
                         input(class="contacts__solid" type="text" id="name" name="name" placeholder="Your name...")
                         input(class="contacts__solid" type="email" id="email" name="email" placeholder="Your email...")
                         input(class="contacts__solid" type="text" id="number" name="number" placeholder="Your phone number...")
                         textarea Your message
+                .col-5
+                    
         .contacts__footer
             .container
                 .row

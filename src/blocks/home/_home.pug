@@ -4,7 +4,8 @@ mixin home
             .row
                 .col-12
                     .home__header
-                        img(src="./img/logo.svg" class="home__logo" alt="logo")
+                        a.home__link(href='#')
+                            svg.icons.icons--home: use(xlink:href="#logo")
                         .home__nav
                             ul
                                 li 
@@ -19,11 +20,11 @@ mixin home
                                     a(href="" ) Blog
                                 li 
                                     a(href="" ) Contact
-                .col-xl-4.offset-xl-0.col-lg-6.col-md-6.col-sm-6.col-12                 
-                    .home__body
-                        h2 Fresh Life
-                        p Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
-                        a(href='#' class='home__button') GET FREE NOW
-                .col-12.d-flex.justify-content-center
-                        a(href="#contact")
-                            img(src="./img/scroll.png" class="home__scroll" alt="scroll")
+                    .col-xl-4.offset-xl-0.col-lg-6.col-md-6.col-sm-6.col-12                 
+                        .home__body
+                            h2 Fresh Life
+                            p Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                            a(href='#' class='home__button') GET FREE NOW
+                    .col-12.d-flex.justify-content-center
+                            a(href="#contact")
+                                img(src="./img/scroll.png" class="home__scroll" alt="scroll")

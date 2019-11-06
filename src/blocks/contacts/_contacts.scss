@@ -1,6 +1,7 @@
 .contacts {
     background-image: url('../img/contact@x1.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 102px;
 
 
@@ -8,7 +9,7 @@
         /* Text style for "Contact" */
     
     color: #262626;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 90px;
     font-weight: 700;
     line-height: 25px;
@@ -20,7 +21,7 @@
         /* Text style for "For new projec" */
     
     color: #262626;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 17px;
     font-weight: 300;
     line-height: 25px;
@@ -35,38 +36,44 @@
 
     textarea {
         
-    width: 500px;
+    width: 100%;
     height: 250px;
-    opacity: 0.5;
-    background-color: #00c4c4;
+    background-color: rgba(0, 196, 196, 0.5);
+    resize: none;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    padding-left: 19px;
+    padding-top: 20px;
     } 
     
     &__form input::placeholder {
+    
     color: white;
     }
 
     input[type="text"],[type="email"] {
         /* Style for "bg" */
-        width: 500px;
+        width: 100%;
         height: 50px;
-        opacity: 0.5;
-        background-color: rgba(0, 196, 196, 0.8);
+        
+        background-color: rgba(0, 196, 196, 0.5);
         border: none;
         padding-left: 19px;
         margin-bottom: 15px;
+        font-family: 'Raleway', sans-serif;
         
         }    
 
     &__solid:focus {
         /* Style for "bg" */
-    width: 500px;
-    height: 50px;
+    width: 100%;
     background-color: rgba(0, 196, 196, 0.8);
     opacity: 1!important; 
         /* Style for "active" */
     border-left: 5px solid;
     border-color: #355b82;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 15px;
     font-weight: 700;
     line-height: 25px;
@@ -82,7 +89,7 @@
             /* Text style for "┬й 2015 Company" */
         
     color: #b9b9b9;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 25px;
@@ -91,7 +98,7 @@
     &__author {
             /* Base text style */
         
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 15px;
     line-height: 25px;
         
@@ -115,15 +122,3 @@ font-weight: 400;
 line-height: 25px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-

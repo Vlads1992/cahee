@@ -1,6 +1,6 @@
 mixin blog
     .blog
-        .container
+        .container.container--lg
                 .row
                     .col-12
                      .blog__title
@@ -9,7 +9,7 @@ mixin blog
                         p Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit. 
                 .blog__posts
                                 .row
-                                    .col-4 
+                                    .col-xl-4.col-lg-4.col-md-6.col-sm-6.col-12
                                         .blog__post1.gradient
                                             img(src="./img/blog/blog1_@1.jpg" alt="post1")
                                             .data
@@ -18,7 +18,7 @@ mixin blog
                                             .description
                                                 p Green Smoothies: Too Much of a Good Thing?
                                                 p.author By Auskteez - 2 hours ago
-                                    .col-4
+                                    .col-xl-4.col-lg-4.col-md-6.col-sm-6.col-12
                                         .blog__post2.gradient
                                             img(src="./img/blog/blog2_@1.jpg" alt="post2")
                                             .data
@@ -27,7 +27,7 @@ mixin blog
                                             .description
                                                 p Growing Food and a “Thirst” for Innovation
                                                 p.author By Auskteez - 3 hours ago
-                                    .col-4
+                                    .col-xl-4.col-lg-4.offset-lg-0.offset-md-3.col-sm-6.offset-sm-3.col-12
                                         .blog__post3.gradient
                                             img(src="./img/blog/blog3_@1.jpg" alt="post3")
                                             .data
