@@ -11,13 +11,12 @@ mixin contacts
                             p you'd like to discuss, contact with me!
             .row
                 .col-5
-                    form(action="/index.html"   class="contacts__form" method="GET")
+                    form(action="index.html"  class="contacts__form" method="GET")
                         input(class="contacts__solid" type="text" id="name" name="name" placeholder="Your name...")
                         input(class="contacts__solid" type="email" id="email" name="email" placeholder="Your email...")
                         input(class="contacts__solid" type="text" id="number" name="number" placeholder="Your phone number...")
                         textarea Your message
-                .col-5
-                    
+                        button(type="submit" class="contacts__button" value="Submit") Submit
         .contacts__footer
             .container
                 .row

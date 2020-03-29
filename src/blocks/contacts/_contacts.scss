@@ -65,6 +65,32 @@
         
         }    
 
+    input[type="text"]:focus {
+        width: 100%;
+    background-color: rgba(0, 196, 196, 0.8);
+    opacity: 1!important; 
+        /* Style for "active" */
+    border-left: 5px solid;
+    border-color: #355b82;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    }    
+
+    &__button {
+                /* Style for "bg" */
+                width: 30%;
+                height: 50px;
+                margin-top: 20px;
+                background-color: rgba(0, 196, 196, 0.5);
+                border: none;
+                margin-bottom: 15px;
+                font-family: 'Raleway', sans-serif;
+                color: white;
+                font-family: 'Raleway', sans-serif;
+    }    
+
     &__solid:focus {
         /* Style for "bg" */
     width: 100%;
