@@ -1,6 +1,6 @@
 mixin contacts
     .contacts
-        .container
+        .container.container--lg
             .row
                 .col-12
                     .contacts__header
@@ -10,13 +10,20 @@ mixin contacts
                             p For new projects, ideas, business or anything
                             p you'd like to discuss, contact with me!
             .row
-                .col-5
+                .col-5.pr-0
                     form(action="index.html"  class="contacts__form" method="GET")
                         input(class="contacts__solid" type="text" id="name" name="name" placeholder="Your name...")
                         input(class="contacts__solid" type="email" id="email" name="email" placeholder="Your email...")
                         input(class="contacts__solid" type="text" id="number" name="number" placeholder="Your phone number...")
                         textarea Your message
                         button(type="submit" class="contacts__button" value="Submit") Submit
+                .offset-xl-2
+                    h3.contacts__contacts Address
+                    p.contacts__information 123 City name, Street, City, Country
+                    h3.contacts__contacts Email
+                    p.contacts__information cahee@domain.com
+                    h3.contacts__contacts Phone
+                    p.contacts__information +012 345 6789 
         .contacts__footer
             .container
                 .row
